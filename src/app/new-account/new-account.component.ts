@@ -8,7 +8,7 @@ import { AccountsService } from './../accounts.service';
   styleUrls: ['./new-account.component.css'],
 })
 export class NewAccountComponent {
-  @Output() accountAdded = new EventEmitter<{ name: string; status: string }>();
+  // @Output() accountAdded = new EventEmitter<{ name: string; status: string }>();
 
   constructor(private accountsService: AccountsService) {}
 
