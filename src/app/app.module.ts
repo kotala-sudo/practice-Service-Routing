@@ -15,7 +15,7 @@ import { AccountsService } from './accounts.service';
     BrowserModule,
     FormsModule,
     RouterModule.forRoot([
-      { path: '', redirectTo: '/account', pathMatch: 'full' },
+      { path: '', redirectTo: '/accounts', pathMatch: 'full' },
       { path: 'accounts', component: AccountComponent },
       { path: 'newaccount', component: NewAccountComponent },
     ]),
